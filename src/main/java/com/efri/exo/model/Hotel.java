@@ -22,7 +22,7 @@ import com.fasterxml.jackson.databind.annotation.JsonNaming;
  *
  */
 @Entity
-@Table(name = "HOTEL")	/* Indispensable pour que un objet hotel soit un JavaBean, 
+@Table(name = "HOTEL")	/* indispensable pour que un objet hotel soit un JavaBean, 
 notamment pour ne par avoir un problème de création de beans lors de l'utilisation de @Query,
 il faut utiliser aussi dans la couche de la Repository la fonction findById au lieu de getOne */
 public class Hotel implements Serializable {
